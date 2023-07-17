@@ -13,6 +13,7 @@ interface PerspectiveViewerElement extends HTMLElement {
 }
 class Graph extends Component<IProps, {}> {
   table: Table | undefined;
+  props: any;
 
   render() {
     return React.createElement('perspective-viewer');
